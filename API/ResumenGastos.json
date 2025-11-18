@@ -1,0 +1,9 @@
+[
+  { "dia": "Lunes", "total": 8500 },
+  { "dia": "Martes", "total": 16200 },
+  { "dia": "Miércoles", "total": 2300 },
+  { "dia": "Jueves", "total": 0 },
+  { "dia": "Viernes", "total": 55800 },
+  { "dia": "Sábado", "total": 15000 },
+  { "dia": "Domingo", "total": 0 }
+]

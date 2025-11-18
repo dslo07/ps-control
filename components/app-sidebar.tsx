@@ -1,9 +1,8 @@
 "use client"
-
+import Link from "next/link"
 import * as React from "react"
 import {
-  IconCamera,
-  IconChartBar,
+  IconCamera, IconCreditCardRefund,
   IconDashboard,
   IconDatabase,
   IconFileAi,
@@ -19,9 +18,7 @@ import {
   IconUsers,
 } from "@tabler/icons-react"
 
-import { NavDocuments } from "@/components/nav-documents"
 import { NavMain } from "@/components/nav-main"
-import { NavSecondary } from "@/components/nav-secondary"
 import { NavUser } from "@/components/nav-user"
 import {
   Sidebar,
@@ -41,28 +38,28 @@ const data = {
   },
   navMain: [
     {
-      title: "Panel",
-      url: "#",
+      title: "Resumen Mensual",
+      url: "/dashboard",
       icon: IconDashboard,
     },
     {
       title: "Ahorros",
-      url: "#",
+      url: "/dashboard/ahorro",
       icon: IconListDetails,
     },
     {
-      title: "Analytics",
-      url: "#",
-      icon: IconChartBar,
+      title: "Tarjetas",
+      url: "/dashboard/tarjetas",
+      icon: IconCreditCardRefund ,
     },
     {
-      title: "Projects",
-      url: "#",
+      title: "Proyectos",
+      url: "/dashboard/proyectos",
       icon: IconFolder,
     },
     {
-      title: "Team",
-      url: "#",
+          title: "Compartidos",
+      url: "/dashboard/compartidos",
       icon: IconUsers,
     },
   ],

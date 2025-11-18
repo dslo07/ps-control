@@ -68,3 +68,10 @@ pyvenv.cfg
 pip-selfcheck.json
 
 # End of https://www.toptal.com/developers/gitignore/api/nextjs,venv,react
+.idea/ps-control.iml
+.idea/modules.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/vcs.xml
+.gitignore
+API/ResumenGastos.json
+.gitignore
